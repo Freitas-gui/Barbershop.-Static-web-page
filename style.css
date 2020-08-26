@@ -1,9 +1,25 @@
 body{
-    background: #CCCCCC
+    background: #CCCCCC;
+}
+
+h1{
+    text-align: center;
+    background: #009099
+}
+
+#banner{
+    width: 50%;     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p{
-    text-align: center
+    text-align: center;
+}
+
+#greate{
+    font-size: 20px;
 }
 
 em strong{
