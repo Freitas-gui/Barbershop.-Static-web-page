@@ -2,12 +2,15 @@ body{
 }
 
 h1{
+    font-size: 50px;
     text-align: center;
-    background: #009099
+    background: #B87333
 }
 
 .main{
     background: #CCCCCC;
+    padding: 10px;
+
 }
 
 #banner{
@@ -30,16 +33,26 @@ em strong{
 }
 
 .benefits{
-    background: #ffffff
+    background: #ffffff;
+    padding: 10px;/* into space */
 }
 
 h2{
-    text-align: center;
+    font-size: 40px;
+    text-align: center;/*near of center*/
 }
 
 #banner_below{
-    width: 100%;     
-    display: block;
-    margin-left: auto;
+    width: 50%;     
+    display: inline-block;
+    margin-left: 5%;
     margin-right: auto;
 }
+
+ul{
+    font-size: 25px;
+    display: inline-block; /*just the size of the content default, but can edit size */
+    vertical-align: top; /*near of top*/
+    margin-left: 10%; /*extern space*/
+}
+
