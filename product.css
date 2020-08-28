@@ -1,0 +1,16 @@
+header{
+    background: #BBBBBB;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*Extern space*/
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;/*default link design off*/
+    font-size: 22px;
+}
