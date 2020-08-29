@@ -1,11 +1,18 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0px; /*space around element inside borders*/
+}
+
+#box{
+    position: relative;/*initial point reference position into of box*/
+    width: 960px;
+    margin: 0 auto;
 }
 
 nav ul{
-    position: absolute; /*reference position with full page*/
-    top: 100px; /*distance of top*/
-    right: 100px;
+    position: absolute; /*initial point reference position with full page*/
+    top: 110px; /*distance of top*/
+    right: 0px;
 }
 
 nav li{
