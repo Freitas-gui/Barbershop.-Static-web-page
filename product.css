@@ -18,8 +18,12 @@ header{
 .products li{
     display: inline-block;
     text-align: center;
-    width: 33%;
+    width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;/* The width (width) and height (height) properties include the fill size and property boundary */ /*not to increase the size of the element*/
+    border: 2px solid #000000;
 }
 
 h2{
