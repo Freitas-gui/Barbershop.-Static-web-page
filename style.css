@@ -1,61 +1,89 @@
 header{
-    font-size: 50px;
-    background: #B77333;
+    background: #BBBBBB;
+    padding: 20px 0px; /*space around element inside borders*/
+}
+
+#box{
+    position: relative;/*initial point reference position into of box*/
+    width: 960px;
+    margin: 0 auto;/*extern space*/
+}
+
+nav ul{
+    position: absolute; /*initial point reference position with full page*/
+    top: 110px; /*distance of top*/
+    right: 0px;
+}
+
+nav li{
     display: inline;
-
+    margin: 0 0 0 15px; /*Extern space*/
+    
 }
 
-.title_center{
-    font-size: 40px;
+nav a:hover{ /*change behavior when the mouse be above*/
+    color: #990011;
+    text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;/*default link design off*/
+    font-size: 22px;
+}
+
+.products{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.products li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;/* The width (width) and height (height) properties include the fill size and property boundary */ /*not to increase the size of the element*/
+    border: 2px solid #000000;/*size / style / color */
+    border-radius: 10px;
 }
 
-.main{
-    background: #CCCCCC;
-    padding: 10px;/*space around element inside borders*/
-
+.products li:hover{
+    border-color: #990011;
 }
 
-#banner{
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;   
-}
-
-p{
-    text-align: center;
-}
-
-#greate{
-    font-size: 20px;
-}
-
-em strong{
-    color: red;
-}
-
-.benefits{
-    background: #ffffff;
-    padding: 10px;/* into space */
+.products li:active{ /*change behavior when the mouse do click*/
+    border-color: #339900;
 }
 
 h2{
-    font-size: 40px;
-    text-align: center;/*near of center*/
-}
-
-#banner_below{
-    width: 50%;     
-    display: inline-block;
-    margin-left: 5%;
-}
-
-ul{
+    font-weight: bold;
     font-size: 25px;
-    display: inline-block; /*just the size of the content default, but can edit size */
-    vertical-align: top; /*near of top*/
-    margin-left: 10%; /*extern space*/
 }
 
+.products li:hover h2{
+    font-size: 35px;
+}
+
+.product-description{
+    font-size: 20px;
+
+}
+
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background: url("imgs/bg.jpg")
+}
+
+.copyright{
+    color: #FFFFFF;
+}
