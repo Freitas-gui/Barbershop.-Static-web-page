@@ -1,6 +1,7 @@
 header{
     background: #BBBBBB;
     padding: 20px 0px; /*space around element inside borders*/
+    transition: 2s;
 }
 
 #box{
@@ -49,10 +50,10 @@ nav a{
     padding: 30px 20px; 
     box-sizing: border-box;/* The width (width) and height (height) properties include the fill size and property boundary */ /*not to increase the size of the element*/
     border: 2px solid #000000;/*size / style / color */
-    border-radius: 10px;
+    border-radius: 10px; /* curvature */
 }
 
-.products li:hover{
+.products li:hover{/*change behavior when the mouse it is over*/
     border-color: #990011;
 }
 
@@ -110,4 +111,19 @@ form label, form legend{
 
 .checkbox{
     margin: 20px 0px;
+}
+
+.save{
+    width: 650px;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgb(255, 238, 0);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; /*hand mouse*/
+    transition: 1s background; /*dynamic mov*/
+}
+
+.save:hover{
+    background: #8fc909
 }
