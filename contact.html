@@ -10,7 +10,7 @@
 <body>
     <header>
         <div id="box">
-            <h1><img src="imgs/logo.png"></h1>
+            <h1><img src="imgs/logo.png" alt="logo of Barber Shop"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -33,30 +33,30 @@
 
             <label for="message">Message: </label>
             <textarea id="message" cols="90" rows="10" class="input-pattern"></textarea>
-            <div>
-                <p>How prefer you our contact?</p>
+            <fieldset>
+                <legend>How prefer you our contact?</legend>
                 <label for="email-radio"><input type="radio" id="email-radio" value="email" name="radio-contact" checked>Email</label>
 
                 <label for="telephone-radio"><input type="radio" id="telephone-radio" value="telephone" name="radio-contact">Telephone</label>
 
                 <label for="whatsapp-radio"><input type="radio" id="whatsapp-radio" value="whatsapp" name="radio-contact">Whatsapp</label>
                 
-            </div>
+            </fieldset>
 
             <label class="checkbox"> <input type="checkbox" checked> like to receive our news by email?</label>
             
-            <select>
-                <p>what time do you prefer? </p>
+            <fieldset>
+                <legend>what time do you prefer? </legend>
                 <option>Morning</option>
                 <option>Afternoon</option>
                 <option>Night</option>
-            </select>
+            </fieldset>
 
             <input type="submit" value="save">
         </form>
     </main>
     <footer>
-        <img src="imgs/logo-branco.png">
+        <img src="imgs/logo-branco.png" alt="logo of Barber Shop">
         <p class="copyright">&copy; Copyright: Guilherme Freitas da Silva. 2020</p> <!--&copy icon of (unicode)-->
     </footer>
 </body>

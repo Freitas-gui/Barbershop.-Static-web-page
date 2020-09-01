@@ -93,7 +93,7 @@ form{
     width: 650px;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 10px 0;
