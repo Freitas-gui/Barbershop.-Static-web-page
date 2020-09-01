@@ -93,18 +93,21 @@ form{
     width: 650px;
 }
 
-form label{
+form label, form p{
     display: block;
     font-size: 20px;
     margin: 10px 0;
     position: relative;
 }
 
-form input{
+.input-pattern{
     display: block;
     padding: 10px 0;
     position: relative;
     width: 100%;
     margin: 10px 0;
-    
+}
+
+.checkbox{
+    margin: 20px 0px;
 }

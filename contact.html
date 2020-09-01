@@ -23,27 +23,28 @@
     <main>
         <form>
             <label for="name">Name: </label>
-            <input type="text" id="name">
+            <input type="text" id="name" class="input-pattern">
 
             <label for="email">Email: </label>
-            <input type="email" id="email">
+            <input type="email" id="email" class="input-pattern">
 
             <label for="tel">Telephone number: </label>
-            <input type="number" id="tel">
+            <input type="number" id="tel" class="input-pattern">
 
             <label for="message">Message: </label>
-            <textarea id="message" cols="90" rows="10"></textarea>
+            <textarea id="message" cols="90" rows="10" class="input-pattern"></textarea>
             <div>
                 <p>How prefer you our contact?</p>
-                <label for="email-radio">Email</label>
-                <input type="radio" id="email-radio" value="email">
+                <label for="email-radio"><input type="radio" id="email-radio" value="email" name="radio-contact">Email</label>
 
-                <label for="telephone-radio">Telephone</label>
-                <input type="radio" id="telephone-radio" value="telephone">
+                <label for="telephone-radio"><input type="radio" id="telephone-radio" value="telephone" name="radio-contact">Telephone</label>
 
-                <label for="whatsapp-radio">Whatsapp</label>
-                <input type="radio" id="whatsapp-radio" value="whatsapp">
+                <label for="whatsapp-radio"><input type="radio" id="whatsapp-radio" value="whatsapp" name="radio-contact">Whatsapp</label>
+                
             </div>
+
+            <label class="checkbox"> <input type="checkbox"> like to receive our news by email?</label>
+
             <input type="submit" value="save">
         </form>
     </main>
