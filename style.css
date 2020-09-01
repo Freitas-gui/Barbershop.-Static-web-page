@@ -121,9 +121,29 @@ form label, form legend{
     border-radius: 10px;
     border: none;
     cursor: pointer; /*hand mouse*/
-    transition: 1s background; /*dynamic mov*/
+    transition: 2s all; /*dynamic mov*/
 }
 
 .save:hover{
-    background: #8fc909
+    background: #8fc909;
+    transform: scale(1.1);/*size more*/
+}
+
+table{
+    margin: 20px auto;    
+}
+
+thead, th{
+    background: #bbbbbb;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #000000;
+}
+
+td{
+    font-size: 20px;
+    border: 1px solid #000000;
+    padding: 5px;
+    
 }
