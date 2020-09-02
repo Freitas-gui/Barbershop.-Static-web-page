@@ -1,7 +1,7 @@
 header{
     background: #BBBBBB;
     padding: 20px 0px; /*space around element inside borders*/
-    transition: 2s;
+    transition: 0.5s;
 }
 
 #box{
@@ -33,6 +33,30 @@ nav a{
     color: black;
     text-decoration: none;/*default link design off*/
     font-size: 22px;
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    margin: auto; 
+}
+
+.main{
+    margin: 30px 9em;
+}
+
+.title_main{
+    text-align: center;
+    margin: 0 0 1em;
+    font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
+}
+
+.main p{
+    margin: 1em 0;
+}
+
+.main strong{
+    font-weight: bolder;
 }
 
 .products{
