@@ -49,6 +49,13 @@ nav a{
     text-align: center;
     margin: 0 0 1em;
     font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
+    clear: left; /*clear the float of imgs/cut*/
+}
+
+#cut{
+    width: 180px;
+    float: left;/*go up and create a shadow*/
+    margin: 0px 10px 0px 0px;/*top right bottom left*/
 }
 
 .main p{
