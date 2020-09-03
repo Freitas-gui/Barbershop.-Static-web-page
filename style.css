@@ -4,9 +4,9 @@ header{
     transition: 0.5s;
 }
 
-main{
-    margin-bottom: 0;
-}
+body{font-family: 'Open Sans', sans-serif;} /*Font txt*/
+
+
 #box{
     position: relative;/*initial point reference position into of box*/
     width: 960px;
@@ -45,12 +45,11 @@ nav a{
 }
 
 .main{
-    margin: 30px 9em;
+    margin: 70px 9em;
 }
 
 .title_main{
     text-align: center;
-    margin: 0 0 1em;
     font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
     clear: left; /*clear the float of imgs/cut*/
 }
@@ -58,7 +57,7 @@ nav a{
 #cut{
     width: 180px;
     float: left;/*go up and create a shadow*/
-    margin: 0px 10px 0px 0px;/*top right bottom left*/
+    margin: 15px 10px 0px 0px;/*top right bottom left*/
 }
 
 .main p{
@@ -67,6 +66,22 @@ nav a{
 
 .main strong{
     font-weight: bolder;
+}
+
+.local{
+    margin: 30px 9em;
+}
+
+.local h2{
+    text-align: center;
+    margin: 2em 0 10px   0;
+    font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
+}
+
+.local .subtitle{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 .products{
@@ -123,6 +138,10 @@ h2{
 }
 
 .benefits{
+    margin: 3em 0;
+}
+
+.benefits ul{
     background: #ffffff;
     padding: 10px;/* into space */
     font-size: 20px;
