@@ -4,6 +4,9 @@ header{
     transition: 0.5s;
 }
 
+main{
+    margin-bottom: 0;
+}
 #box{
     position: relative;/*initial point reference position into of box*/
     width: 960px;
@@ -111,9 +114,32 @@ h2{
     font-weight: bold;
 }
 
+
+#four{
+    width: 100px;
+    float: left;
+    margin: 0 30px 0 35%;
+    
+}
+
+.benefits{
+    background: #ffffff;
+    padding: 10px;/* into space */
+    font-size: 20px;
+    list-style: square;/*symbol that stays in side left of list*/
+    display: inline-block;
+}
+
+
+#banner_below{
+    width: 100%;     
+    display: inline-block;
+    vertical-align: bottom;    
+}
+
 footer{
     text-align: center;
-    background: url("imgs/bg.jpg")
+    background: url("imgs/bg.jpg");
 }
 
 .copyright{
