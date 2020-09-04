@@ -133,7 +133,7 @@ h2{
 #four{
     width: 100px;
     float: left;
-    margin: 0 30px 0 35%;
+    margin: 0 30px 0 37%;
     
 }
 
@@ -147,6 +147,14 @@ h2{
     font-size: 20px;
     list-style: square;/*symbol that stays in side left of list*/
     display: inline-block;
+}
+
+.benefits li:first-child{/*get first element*/
+    font-style: italic;
+}
+
+.benefits li:nth-child(3){/*get any element element*/
+    font-weight: bold;    
 }
 
 .video{
