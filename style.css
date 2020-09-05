@@ -144,8 +144,7 @@ h2{
 #four{
     width: 100px;
     float: left;
-    margin: 15px 30px 0 37%;
-    
+    margin: 15px 30px 0 calc(50% - 150px);
 }
 
 .benefits-video{
@@ -263,3 +262,16 @@ td{
     padding: 5px;
     
 }
+
+
+/*
+
+main > p{} "every p that is a direct child of the principal, into of block"
+
+img + p "the only p that stay latter of img"
+
+img ~ p "all p that stay latter of img, into of block"
+
+.main p:not(#greate) "all p that not is id=grate, into of block"
+
+*/
