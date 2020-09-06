@@ -51,14 +51,16 @@ main{
 }
 
 .main{
-    margin: 70px 9em;
+    margin: 30px 0;
+
 }
 
 .title_main{
     text-align: center;
     font-size: 2em; /* (em) is size proportional as pixels. Here double size*/
     clear: left; /*clear the float of imgs/cut*/
-    
+    margin: 15px 0;
+
 }
 
 #cut{
@@ -94,7 +96,7 @@ main{
 }
 
 .map{
-    margin: 30px 9em 0 9em;
+    margin: 30px 30px 0 30px;
 }
 
 .products{
@@ -276,6 +278,30 @@ td{
     
 }
 
+
+@media screen and (max-width: 960px){
+    #box, .local, header, .main, body, .video, .map {
+        width: auto;
+    }
+    nav ul{
+        position: static;
+    }
+    #box, .benefits, #four{
+        text-align: center;
+        margin: 0;
+        float: unset;
+    }
+
+    footer{
+        line-height: 3;   
+    }
+    .main{
+        margin: 30px;
+    }
+    #cut{
+        margin: 5px 10px 0px 0px;
+    }
+}
 
 /*
 
