@@ -10,6 +10,10 @@ header{
     margin: 0 auto;
 }
 
+#box h1 img{
+    width: 15em;
+}
+
 body{
     font-family: 'Open Sans', sans-serif; /*Font txt*/
 }
@@ -130,6 +134,10 @@ h2{
     font-size: 25px;
 }
 
+.products li > img{
+    width: 10em;
+}
+
 .products li:hover h2{
     font-size: 35px;
 }
@@ -211,8 +219,12 @@ footer{
     text-align: center;
     background: url("imgs/bg.jpg");
     line-height: 2;
-    margin-top: -5px;
-    
+    margin-top: -5px;   
+}
+
+footer img{
+    margin-top: 20px;
+    width: 15em;
 }
 
 .copyright{
