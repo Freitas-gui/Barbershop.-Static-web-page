@@ -51,7 +51,7 @@ main{
 }
 
 .main{
-    margin: 30px 0;
+    margin: 30px 2em;
 
 }
 
@@ -66,7 +66,7 @@ main{
 #cut{
     width: 180px;
     float: left;/*go up and create a shadow*/
-    margin: 15px 10px 0px 0px;/*top right bottom left*/
+    margin: 0 10px 0px 0px;/*top right bottom left*/
 }
 
 .main p{
@@ -260,7 +260,7 @@ form label, form legend{
 }
 
 table{
-    margin: 20px auto;    
+    margin: 20px auto 40px auto;    
 }
 
 thead, th{
@@ -279,8 +279,8 @@ td{
 }
 
 
-@media screen and (max-width: 960px){
-    #box, .local, header, .main, body, .video, .map {
+@media screen and (max-width: 960px){/*Responsive*/
+    #box, .local, header, .main, body, .video, .map{
         width: auto;
     }
     nav ul{
@@ -292,16 +292,79 @@ td{
         float: unset;
     }
 
-    footer{
-        line-height: 3;   
+    .benefits li{
+        text-align:start;
     }
+
     .main{
-        margin: 30px;
+        margin: 30px 2em;
     }
     #cut{
         margin: 5px 10px 0px 0px;
     }
+
+    .products{
+        width: auto;
+    }
+
+    .products li{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 0; 
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px; 
+    }
+
+    .products h2{
+        margin: 10px 0;
+    }
+
+    .products li > img{
+        width: 8em;
+    }
+    
+    .product-description{
+        margin: 0 20px 0 20px;
+    }
+
+    .product-price{
+        margin-bottom: 10px;
+    }
+
+    form{
+        width: 80%;
+    }
+
+    .save{
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+    
 }
+
+/*
+
+.products{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+}
+
 
 /*
 
